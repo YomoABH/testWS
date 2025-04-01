@@ -8,9 +8,11 @@ const props = defineProps<{
 }>()
 
 const getMessageClass = (id: string): string =>{
-   return id === props.userId ? 'message outgoing' : 'message incoming'
+   return id === props.userId ?
+         'message outgoing' : 
+         'message incoming'
 } 
-</script>
+</script>Ц
 
 <template>
 		<div class="chat-messages">
